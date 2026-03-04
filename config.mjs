@@ -10,7 +10,7 @@ export default {
     // You can add your own custom ratings to this array.
     ...getBuiltInRatings()
   ],
-  generationSystemPrompt: './system-instructions.md',
+  generationSystemPrompt: './AGENTS.md',
   executablePrompts: ['./example-prompts/**/*.md'],
   skipInstall: false,
   // The following options aren't mandatory, but can be useful:
