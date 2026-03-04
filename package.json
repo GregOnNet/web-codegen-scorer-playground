@@ -2,14 +2,16 @@
   "name": "wcs-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "eval.gemini": "wcs eval --env=./config.mjs --model gemini-2.5-pro --prompt-filter=goal-tracker",
-    "eval.sonnet": "wcs eval --env=./config.mjs --model claude-opus-4.5-no-thinking --prompt-filter=goal-tracker",
+    "eval.opus": "wcs eval --env=./config.mjs --model claude-opus-4.5-no-thinking --prompt-filter=goal-tracker",
     "report": "wcs report"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ai",
+    "web-codegen-scorer",
+    "angular"
+  ],
+  "author": "Gregor Woiwode",
   "license": "ISC",
   "packageManager": "pnpm@10.30.3",
   "devDependencies": {
