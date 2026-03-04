@@ -12,7 +12,7 @@ export default {
   ],
   generationSystemPrompt: './AGENTS.md',
   executablePrompts: ['./example-prompts/**/*.md'],
-  skipInstall: false,
+  skipInstall: true,
   // The following options aren't mandatory, but can be useful:
   // id: '', Unique ID for the environment. If empty, one is generated from the `displayName`.
   // packageManager: 'npm', // Name of the package manager used to install dependencies.
